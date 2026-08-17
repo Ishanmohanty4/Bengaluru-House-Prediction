@@ -19,7 +19,7 @@ Estimating property prices in Bengaluru is challenging due to high variance acro
    - Extracted numerical `size` counts from categorical size strings.
 
 2. **Outlier Filtering & Feature Engineering:**
-   - Enforced standard architectural threshold: removed entries with `< 300 sqft / Size`.
+   - Enforced standard architectural threshold: removed entries with `< 300 sqft / size`.
    - Dimension reduction: grouped rare localities ($\le 10$ records) into an `'other'` bucket.
    - Removed location-wise price per sqft outliers ($\pm 1\sigma$).
    - Filtered out Size pricing anomalies and excessive bathroom counts (`bath > size + 2`).

@@ -2,7 +2,7 @@
 
 An end-to-end Machine Learning web application to predict residential real estate prices across Bengaluru, India based on location, square footage, bedroom count (BHK), and bathroom count.
 
-🔗 **Live Streamlit App:** [Bengaluru House Price Extimator]([https://share.streamlit.io/](https://bengaluru-house-predictior.streamlit.app/))
+🔗 **Live Streamlit App:** [Bengaluru House Price Estimator](https://bengaluru-house-predictior.streamlit.app/)
 
 ---
 

@@ -48,9 +48,10 @@ Evaluated on test data (metrics mapped back to original scale in ₹ Lakhs):
 ## 📁 Repository Structure
 
 ```text
+├── Bengaluru_House_Data.csv           # Raw dataset
+├── Bengaluru_House_prediction.ipynb   # Code File
+├── README.md                          # Project documentation
 ├── app.py                             # Streamlit user interface & inference logic
 ├── bangalore_house_price_model.pickle # Trained Random Forest model artifact
 ├── columns.json                       # One-hot encoded feature schema
-├── Bengaluru_House_Data.csv           # Raw dataset
-├── requirements.txt                   # Environment dependencies
-└── README.md                          # Project documentation
+└── requirements.txt                   # Environment dependencies
